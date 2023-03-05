@@ -165,7 +165,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Kori Tech",
       companylogo: require("./assets/images/kori.png"),
-      date: "July 2021 – Present",
+      date: "July 2021 – February 2023",
       desc: "I am working on a application for the management of the school",
       descBullets: [
         "Mobile application",
