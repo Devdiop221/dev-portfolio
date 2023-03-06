@@ -30,7 +30,7 @@ const socialMediaLinks = {
   medium: "https://medium.com/@diopmouhamed290",
   stackoverflow: "https://stackoverflow.com/users/15907777/dev-diop",
   twitter: "https://twitter.com/devdiop221",
-  instagram: "https://www.instagram.com/dev_diop221/",
+  instagram: "https://www.instagram.com/devdiop221/",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -150,7 +150,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
