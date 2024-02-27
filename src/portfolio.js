@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/171CCvk7VgpGw5FLaTlFhCu2I1nyGe8qD/view?usp=share_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1qMRFyzReqzM12jCWzmoPHDIF2mBIkCk9/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -121,16 +121,23 @@ const educationInfo = {
     {
       schoolName: "Institut Polytechnique de Dakar",
       logo: require("./assets/images/ipd.jpg"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Master's Degree in Software Engineering",
+      duration: "January 2023 - January 2024",
+      desc: "Took courses about Software Engineering, Software devlopment, Mobile application, Network security ..."
+    },
+    {
+      schoolName: "Institut Polytechnique de Dakar",
+      logo: require("./assets/images/ipd.jpg"),
+      subHeader: "Bachelor's Degree in Software Engineering",
       duration: "December 2020 - November 2021",
-      desc: "Took courses about Software Engineering, Web Security, Operating Systems, AI ...",
+      desc: "Took courses about Software Engineering, Web Security, Operating Systems, AI ..."
     },
     {
       schoolName: "Ecoles des Hautes Etudes Polytechniques de Dakar",
       logo: require("./assets/images/hepo.jpg"),
       subHeader: "Diploma of Higher Technician Science in Computer Science",
       duration: "February 2019 - September 2020",
-      desc: "Took courses about Algorithm, Design, Operating Systems, ...",
+      desc: "Took courses about Algorithm, Design, Operating Systems, ..."
     }
   ]
 };
@@ -162,18 +169,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Mobile Developer",
+      company: "Monarque Investment",
+      companylogo: require("./assets/images/logomonarque.png"),
+      date: "April 2023 – December 2024",
+      desc: "I am working on a finance application",
+      descBullets: ["Mobile application", "Backend integration"]
+    },
+    {
+      role: "Mobile Developer",
       company: "Kori Tech",
       companylogo: require("./assets/images/kori.png"),
       date: "July 2021 – February 2023",
       desc: "I am working on a application for the management of the school",
-      descBullets: [
-        "Mobile application",
-        "Backend integration",
-      ]
+      descBullets: ["Mobile application", "Backend integration"]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Web and Mobile Developer",
       company: "Defar SCi",
       companylogo: require("./assets/images/defarsci.png"),
       date: "October 2020 – July 2021",
@@ -182,7 +194,7 @@ const workExperiences = {
         "Mobile application",
         "Backend integration",
         "Web application",
-        "Restful application",
+        "Restful application"
       ]
     }
   ]
@@ -193,7 +205,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
