@@ -180,7 +180,7 @@ const workExperiences = {
       role: "Mobile Developer",
       company: "Monarque Investment",
       companylogo: require("./assets/images/logomonarque.png"),
-      date: "April 2023 – December 2024",
+      date: "April 2023 – December 2023",
       desc: "I am working on a finance application",
       descBullets: ["Mobile application", "Backend integration"]
     },
