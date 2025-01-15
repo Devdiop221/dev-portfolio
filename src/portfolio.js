@@ -170,6 +170,14 @@ const workExperiences = {
   experience: [
     {
       role: "Mobile Developer",
+      company: "Medteck Consulting",
+      companylogo: require("./assets/images/logo-medteck.png"),
+      date: "April 2024 – December 2024",
+      desc: "I am working on a different applications for the company",
+      descBullets: ["Mobile application", "Backend integration","Backend Development"]
+    },
+    {
+      role: "Mobile Developer",
       company: "Monarque Investment",
       companylogo: require("./assets/images/logomonarque.png"),
       date: "April 2023 – December 2024",
